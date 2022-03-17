@@ -74,7 +74,6 @@ def handle_matched_file(path, rule_match):
 
 def handle_match_callback(callback):
     # Call function to notify Discord channel here
-    # This function should probably also push files to MWDB / another storage system 
     t = Thread(target=post_to_webhook, args=(callback,))
     t.start()
     return yara.CALLBACK_CONTINUE
