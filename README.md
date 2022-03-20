@@ -11,8 +11,8 @@ Discord is used as an easy front end, which allows a small set of commands to be
 - See active rules
 - See active "jobs" (threads downloading new samples)
 
-The malware samples of interest are saved locally, and also sent to an MWDB instance.\
-YarHunt per default uploads samples to the MWDB instance run by CERT PL.\
+The malware samples of interest are saved locally, and sent to an MWDB instance.\
+YarHunt per default uploads samples to the MWDB instance run by CERT PL (https://mwdb.cert.pl).
 
 
 
@@ -21,8 +21,8 @@ A config file placed next to the "bot.py" file is needed.\
 This config file should contain the following constants:
 ```
 # Path constants
-rule_directory = "<path_to_yara_rules_directory>"
-compiled_rules_directory = "<path_to_directory_to_store_compiled_yara_rules_in>"
+rule_directory = "<Path to yara rules directory>"
+compiled_rules_directory = "<Path to directory to store compiled yara rules in>"
 malware_cage = "<Directory malware should be saved in>"
 rule_match_folder = "<Directory samples should be stored in>"
 bazaar_zip_name = "hourlybzr"
