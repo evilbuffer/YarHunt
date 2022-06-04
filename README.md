@@ -2,10 +2,10 @@
 
 ## About
 YarHunt is a project created during an 8hr hackathon.\
-It is indented to be used as a collection / hunting system for malware samples.
+It is designed to be used as a collection / hunting system for malware samples.
 
 YarHunt will download samples from Malware Bazaar and Malshare, then run Yara rules on the samples, and save all matches.\
-Discord is used as an easy front end, which allows a small set of commands to be issued:
+Discord is used as an easy front end, which allows a small set of commands to be used:
 - Upload new Yara rule
 - Remove Yara rule
 - See active rules
