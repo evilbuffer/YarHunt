@@ -26,7 +26,7 @@ compiled_rules_directory = "<Path to directory to store compiled yara rules in>"
 malware_cage = "<Directory malware should be saved in>"
 rule_match_folder = "<Directory samples should be stored in>"
 bazaar_zip_name = "hourlybzr"
-bazaar_unzip_name = "unzip_hourlybzr"
+bazaar_unzip_name = "unzipped_hourlybzr"
 malshare_folder = "malshare/"
 
 # Discord stuff
